@@ -36,7 +36,7 @@ This project is a **RESTful API for managing courses** built with **Node.js** an
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/course-api.git
+   git clone https://github.com/tarcisiosilva/course-api.git
    cd course-api
    ```
 
