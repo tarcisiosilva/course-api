@@ -48,11 +48,6 @@ This project is a **RESTful API for managing courses** built with **Node.js** an
 
 3. **Run the application**:
 
-   - In development mode:
-
-     ```bash
-     npm run dev
-     ```
 
    - In production mode (compile TypeScript first):
 
