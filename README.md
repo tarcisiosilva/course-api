@@ -67,6 +67,12 @@ The application uses SQLite by default, configured through TypeORM. Upon running
 - **POST** `/auth/register`: Register a new user.
 - **POST** `/auth/login`: Authenticate a user and retrieve a JWT token.
 
+### Payload
+{
+    "username": "testUser",
+    "password": "password123"
+}
+
 ### Courses (JWT Authentication Required)
 
 - **POST** `/api/courses`: Create a new course.
@@ -74,6 +80,16 @@ The application uses SQLite by default, configured through TypeORM. Upon running
 - **GET** `/api/courses/:id`: Retrieve a specific course by ID.
 - **PUT** `/api/courses/:id`: Update a specific course by ID.
 - **DELETE** `/api/courses/:id`: Delete a specific course by ID.
+
+
+### Payload - Create / Update
+{
+    "title": "Curso de Node.js",
+    "description": "Curso Interediário de Node.js",
+    "duration": "40h",
+    "instructor": "Tarcísio Silva"
+}
+
 
 ## Running with Docker
 
